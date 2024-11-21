@@ -1,2 +1,2 @@
 # SAVMON
- This is basic expense tracker
+ This is Hospital Management Site
