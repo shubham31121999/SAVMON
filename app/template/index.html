@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to [Hospital Name]</title>
+    <link rel="stylesheet" href="static/css/index.css">
+
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>[Hospital Name]</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="/login">Go to Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Your Health, Our Priority</h2>
+            <p>We provide top-notch healthcare with compassionate care, advanced technology, and expert doctors.</p>
+            <a href="#services" class="btn">Explore Our Services</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-cards">
+            <div class="card">
+                <h3>Emergency Care</h3>
+                <p>24/7 emergency services with expert medical teams ready to assist you at any time.</p>
+            </div>
+            <div class="card">
+                <h3>Outpatient Services</h3>
+                <p>Comprehensive outpatient care for consultations, diagnostics, and treatments.</p>
+            </div>
+            <div class="card">
+                <h3>Surgical Services</h3>
+                <p>Advanced surgical procedures performed by skilled surgeons using the latest technology.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about-us">
+        <h2>About Us</h2>
+        <p>Founded in [Year], [Hospital Name] has been providing exceptional care to patients in the [City/Region]. With a team of highly skilled professionals, state-of-the-art facilities, and a patient-first approach, we aim to deliver the best healthcare experience possible.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-info">
+            <div class="contact-item">
+                <h3>Emergency Contact</h3>
+                <p>Phone: [Emergency Number]</p>
+            </div>
+            <div class="contact-item">
+                <h3>General Inquiries</h3>
+                <p>Email: [email@example.com]</p>
+            </div>
+            <div class="contact-item">
+                <h3>Location</h3>
+                <p>[Hospital Address]</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 [Hospital Name]. All rights reserved.</p>
+            <p><a href="#privacy-policy">Privacy Policy</a> | <a href="#terms-of-service">Terms of Service</a></p>
+        </div>
+    </footer>
+    <script>
+        function redirectToLogin() {
+          window.location.href = "login.html"; // Replace with the actual URL
+        }
+    </script>
+</body>
+</html>
